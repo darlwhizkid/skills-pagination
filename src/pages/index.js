@@ -1,3 +1,4 @@
+require('dotenv').config();
 import Image from "next/image";
 import localFont from "next/font/local";
 
