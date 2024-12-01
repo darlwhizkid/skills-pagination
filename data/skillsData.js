@@ -31,8 +31,7 @@ export const skills = {
     { 
       id: 6, 
       name: "Solar Panel Installation",
-      hourlyRate: 90,
-      description: "Certified installer for residential and commercial projects"
+      description: "Installer for residential and commercial projects"
     },
   ],
 };  

@@ -1,8 +1,8 @@
 import React from 'react';
-import { SkillsProvider } from '../context/SkillsContext';
-import SkillsList from '../components/SkillsList';
+import { SkillsProvider } from './context/SkillsContext';
+import SkillsList from './components/SkillsList';
 
-export default function SkillsPage() {
+function App() {
   return (
     <SkillsProvider>
       <div className="container mx-auto py-8">
@@ -19,3 +19,5 @@ export default function SkillsPage() {
     </SkillsProvider>
   );
 }
+
+export default App;
